@@ -39,7 +39,7 @@ export const Instagram = <Icon icon="fa-brands:instagram" />;
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, React Bootstrap, Redux, and the GitHub REST API.";
+  "I am Ismail Telhouni, a passionate software development enthusiast and a student of software engineering at Ensias School. I am a full-stack developer with skills in various domains including IoT, cybersecurity, AI, and machine learning. My goal is to create seamless and innovative digital experiences by combining my front-end and back-end skills. I am always on the lookout for new technologies and opportunities to broaden my knowledge and contribute to shaping a better future through technology.";
 
 /* Skills
  ************************************************************** 

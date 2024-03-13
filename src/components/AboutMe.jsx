@@ -38,7 +38,7 @@ export default function AboutMe() {
                 {moreInfo && <p>{moreInfo}</p>}
               </Container>
             </Col>
-            <Col className="d-none d-md-block text-center">
+            <Col lg="3" className="d-none d-md-block text-center">
               <img
                 src={avatar_url}
                 alt="GitHub Avatar"
