@@ -5,7 +5,7 @@ import styled from "styled-components";
 // Icons
 import { Icon } from "@iconify/react";
 // Media
-import Logo from "../images/logo.svg";
+import Logo from "../images/logot.png";
 import { Light, Dark } from "../data";
 // Components
 import { Col, Container, Row } from "react-bootstrap";
@@ -97,7 +97,7 @@ export default function Hero() {
             <img
               src={Logo}
               alt="React Logo"
-              className="w-75 mx-auto hero-img"
+              className="w-75 mx-auto "
             />
           </Col>
         </Row>

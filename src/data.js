@@ -5,7 +5,7 @@ import { Icon } from "@iconify/react";
 // import newLogo from "./images/yourFileName"
 
 // Projects Images (add your images to the images directory and import below)
-import Logo from "./images/logo.svg";
+import Logo from "./images/logot.png";
 
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
@@ -18,13 +18,17 @@ export { HeroDark as Dark };
  **************************************************************
   Add your GitHub username (string - "YourUsername") below.
 */
-export const githubUsername = "Your GitHub username here";
+export const githubUsername = "ismailtelhouni";
 
 // Navbar Logo image
-export const navLogo = undefined;
+export const navLogo = Logo;
 
 // Blog link icon - https://icon-sets.iconify.design/
-export const Blog = <Icon icon="ph:link-bold" />;
+export const linkedinPath = "https://www.linkedin.com/in/ismail-telhouni-880340254/";
+export const linkedin = <Icon icon="fa-brands:linkedin" />;
+
+export const InstagramPath = "https://www.instagram.com/telhouni_ismail/";
+export const Instagram = <Icon icon="fa-brands:instagram" />;
 
 /* About Me
  **************************************************************
