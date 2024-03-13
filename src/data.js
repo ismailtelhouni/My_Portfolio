@@ -6,6 +6,10 @@ import { Icon } from "@iconify/react";
 
 // Projects Images (add your images to the images directory and import below)
 import Logo from "./images/logot.png";
+import Artisanat from "./images/artisanat2.jpg";
+import PainCare from "./images/painCare-Z0X8D4xG.jpg";
+import Location from "./images/locaPulse-IAejT_e1.jpg";
+
 
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
@@ -58,9 +62,9 @@ export const skillData = [
     name: "JavaScript",
   },
   {
-    id: 4,
-    skill: <Icon icon="ri:bootstrap-fill" className="display-4" />,
-    name: "BootStrap",
+    id: 28,
+    skill: <Icon icon="fa-brands:php" className="display-6" />,
+    name: "PHP",
   },
   {
     id: 5,
@@ -68,14 +72,14 @@ export const skillData = [
     name: "React",
   },
   {
-    id: 6,
-    skill: <Icon icon="file-icons:styledcomponents" className="display-4" />,
-    name: "Styled Components",
+    id: 19,
+    skill: <Icon icon="cib:laravel" className="display-6" />,
+    name: "Laravel",
   },
   {
-    id: 7,
-    skill: <Icon icon="akar-icons:redux-fill" className="display-4" />,
-    name: "Redux",
+    id: 20,
+    skill: <Icon icon="cib:symfony" className="display-6" />,
+    name: "Symfony",
   },
   {
     id: 8,
@@ -87,6 +91,96 @@ export const skillData = [
     skill: <Icon icon="fa6-brands:square-github" className="display-4" />,
     name: "GitHub",
   },
+  {
+    id: 10,
+    skill: <Icon icon="logos:spring" className="display-5" />,
+    name: "",
+  },
+  {
+    id: 11,
+    skill: <Icon icon="logos:angular" className="display-5" />,
+    name: "",
+  },
+  {
+    id: 4,
+    skill: <Icon icon="ri:bootstrap-fill" className="display-4" />,
+    name: "BootStrap",
+  },
+  {
+    id: 6,
+    skill: <Icon icon="logos:nodejs" className="display-4"/>,
+    name: "",
+  },
+  {
+    id: 12,
+    skill: <Icon icon="vscode-icons:file-type-tailwind" className="display-5  " />,
+    name: "Tailwind CSS",
+  },
+  {
+    id: 13,
+    skill: <Icon icon="vscode-icons:file-type-sql" className="display-5  " />,
+    name: "SQL",
+  },
+  {
+    id: 14,
+    skill: <Icon icon="fa-brands:python" className="display-5  " />,
+    name: "Python",
+  },
+  {
+    id: 15,
+    skill: <Icon icon="fa-brands:java" className="display-5  " />,
+    name: "Java",
+  },
+  {
+    id: 16,
+    skill: <Icon icon="vscode-icons:file-type-docker" className="display-4" />,
+    name: "Docker",
+  },
+  {
+    id: 17,
+    skill: <Icon icon="logos:nextjs" className="display-6" />,
+    name: "",
+  },
+  {
+    id: 18,
+    skill: <Icon icon="simple-icons:react" className="display-6" />,
+    name: "React Native",
+  },
+  {
+    id: 21,
+    skill: <Icon icon="bi:database" className="display-6" />,
+    name: "Oracle",
+  },
+  {
+    id: 22,
+    skill: <Icon icon="vscode-icons:file-type-maven" className="display-6" />,
+    name: "Maven",
+  },
+  {
+    id: 23,
+    skill: <Icon icon="vscode-icons:file-type-firebase" className="display-6" />,
+    name: "Firebase",
+  },
+  {
+    id: 24,
+    skill: <Icon icon="cib:unity" className="display-6" />,
+    name: "Unity",
+  },
+  {
+    id: 25,
+    skill: <Icon icon="cib:jira" className="display-6" />,
+    name: "Jira",
+  },
+  {
+    id: 26,
+    skill: <Icon icon="cib:trello" className="display-6" />,
+    name: "Trello",
+  },
+  {
+    id: 27,
+    skill: <Icon icon="cib:expo" className="display-6" />,
+    name: "Expo",
+  },
 ];
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
@@ -96,14 +190,35 @@ export const resume = null;
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["example-1", "example-2", "example-3"];
+export const filteredProjects = ["Artisanat_Frontend_Angular", "PainCare_Frontend_Angular", "AppGestionLocation"];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 7-8)
 export const projectCardImages = [
   {
-    name: "example-1",
-    image: Logo,
+    name: "Artisanat_Frontend_Angular",
+    image: Artisanat,
   },
+  {
+    name: "Artisanat_Backend_JAVA_EE",
+    image: Artisanat,
+  },
+  {
+    name: "PainCare_Frontend_Angular",
+    image: PainCare,
+  },
+  {
+    name: "PainCare_Backend_Spring",
+    image: PainCare,
+  },
+  {
+    name: "AppGestionLocation",
+    image: Location,
+  },
+  {
+    name: "GestionLocation",
+    image: Location,
+  },
+
 ];
 
 /* Contact Info
@@ -111,4 +226,4 @@ export const projectCardImages = [
   Add your formspree endpoint below.
   https://formspree.io/
 */
-export const formspreeUrl = "https://formspree.io/f/YourEndpoint";
+export const formspreeUrl = "https://formspree.io/f/xqkrlnqq";
