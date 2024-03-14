@@ -184,7 +184,7 @@ export const skillData = [
 ];
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
-export const resume = null;
+export const resume = "https://firebasestorage.googleapis.com/v0/b/taskmanagement-3d4d9.appspot.com/o/Ismail_Telhouni__CV_pdf%20(3).pdf?alt=media&token=5939b686-76ac-454e-9d03-ad827b893581";
 
 /* Projects
  ************************************************************** 
